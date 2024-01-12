@@ -1,7 +1,7 @@
 //Cerate array of an double type an store 10 elements in array.
 
 public class Double_Array{
-    public static void main(String[] args)
+    public static void main(String[] args) 
     {
         double a [] = new double[10];
         a[0]=10.3;
