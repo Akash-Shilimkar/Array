@@ -1,0 +1,26 @@
+package Array;
+
+import java.util.Scanner;
+
+public class Count_Vowel {
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String_Count[] args) {
+		 char c[] = new char[5];
+	     int count =0;
+	        
+	     System.out.println("Enter the char elements of the array: ");  
+	      for(int i=0;i<c.length;i++)
+	       {
+	        	c[i] = sc.next().charAt(0);
+	       }
+	      System.out.println("Char Array List is : ");
+	      for(int i=0;i<c.length;i++)
+	       {
+	         if(c[i]=='a' ||c[i]=='e' ||c[i]=='i' ||c[i]=='o' ||c[i]=='u')
+	         {
+	        	count++;
+	         }
+	        }
+	        System.out.println("Total Vowel present in array :"+count);
+	}
+}
